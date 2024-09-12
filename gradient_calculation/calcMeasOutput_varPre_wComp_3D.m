@@ -14,6 +14,8 @@ function [ out_grad, dwelltime ] = calcMeasOutput_varPre_wComp_3D( file, numRepP
 %   out_grad:  measured gradient waveform
 %   dwelltime: dwell time in seconds
 
+% Copyright (c) 2022 Hannah Scholten
+
 %% Read raw data %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 rawdata = load(file);
 

@@ -16,6 +16,8 @@ function [ out_signals, dwelltime ] = calculateOutputGradient( file, numRepPerGI
 %   out_signals: measured gradient waveforms
 %   dwelltime:   dwell time in seconds
 
+% Copyright (c) 2022 Hannah Scholten
+
 %% Read raw data %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 rawdata = load(file);
 

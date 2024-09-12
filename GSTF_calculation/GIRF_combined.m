@@ -1,5 +1,8 @@
 classdef GIRF_combined < handle
-% This class defines a GIRF-object, in which the GSTF is the result of combining H_LF and H_HF.    
+% This class defines a GIRF-object, in which the GSTF is the result of combining H_LF and H_HF. 
+
+% Copyright (c) 2022 Hannah Scholten
+
     properties
         gstf
         girf

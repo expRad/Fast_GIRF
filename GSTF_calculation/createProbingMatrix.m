@@ -8,6 +8,8 @@ function [ probingMatrix ] = createProbingMatrix( positions, calcChannels )
 % Returns:
 %   probingMatrix: matrix that transforms between voxel positions and coefficients of sperical harmonics
 
+% Copyright (c) 2022 Hannah Scholten
+
 %%
 numVoxels = size(positions,1); % positions has size [numVoxels, 3]
 

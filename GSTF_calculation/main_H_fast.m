@@ -1,3 +1,4 @@
+% Copyright (c) 2022 Hannah Scholten
 
 clear all;
 % Change current directory to that of this .m file

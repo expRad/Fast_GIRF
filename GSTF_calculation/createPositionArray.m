@@ -10,6 +10,8 @@ function [ positions ] = createPositionArray( orientation, numPE, numSlices, FOV
 % Returns:
 %   positions:   array of voxel positions in meters
 
+% Copyright (c) 2022 Hannah Scholten
+
 %% Initialize output array %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 positions = zeros(numPE, numPE, numSlices, 3); % [PE steps, partitions, slices, 3], last dimension is [x y z]
 

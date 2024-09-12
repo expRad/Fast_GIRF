@@ -1,5 +1,8 @@
 classdef GIRF_matrix < handle
 % This class defines a GIRF-object, in which the GIRF is calculated by matrix inversion in the time domain.
+
+% Copyright (c) 2022 Hannah Scholten
+
     properties
         girf
         gstf

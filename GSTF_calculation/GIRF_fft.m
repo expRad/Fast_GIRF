@@ -1,5 +1,8 @@
 classdef GIRF_fft < handle
 % This class defines a GIRF-object, in which the GSTF is calculated by division in the frequency domain.
+
+% Copyright (c) 2022 Hannah Scholten
+
     properties
         gstf
         girf

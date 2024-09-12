@@ -1,5 +1,8 @@
 classdef GIRF_plotter < handle
 % This class defines a GIRF_plotter-object, which can create nice plots of the calculated GIRFs.
+
+% Copyright (c) 2022 Hannah Scholten
+
     methods
         
         %% %%%%%%%%%%%%%%%%%%%%%%%%%%

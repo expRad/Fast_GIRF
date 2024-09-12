@@ -12,6 +12,8 @@ function  [diff_phase, magnitude_combined] = combineCoils(kspace, dwelltime, wei
 %   diff_phase:         combined derivative of the measured phase data of the different coil elements
 %   magnitude_combined: combined magnitude data
 
+% Copyright (c) 2022 Hannah Scholten
+
 %% Extract phase and magnitude data %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 diff_phase = unwrap(angle(kspace),[],1); % dimensions: [numROP, coils, numPE, numPE, slices, triangles, 1, 1, measurements(if>1)]
 diff_phase(2:end,:,:,:,:,:,:,:,:) = diff(diff_phase,1,1)/dwelltime;

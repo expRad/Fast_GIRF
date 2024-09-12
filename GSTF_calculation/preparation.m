@@ -1,4 +1,6 @@
 classdef preparation < handle
+
+    % Copyright (c) 2022 Hannah Scholten
     
     properties
         % properties that are set in the main program

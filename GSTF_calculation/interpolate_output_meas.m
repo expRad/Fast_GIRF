@@ -9,6 +9,8 @@ function [ out_signals_interp ] = interpolate_output_meas(out_signal, t_axis_ADC
 % Returns:
 %   out_signals_interp: output gradient interpolated to t_axis_1us
 
+% Copyright (c) 2022 Hannah Scholten
+
 %%
 out_signals_interp = zeros(size(out_signal,1),size(out_signal,2),size(t_axis_1us,2),size(out_signal,4));
 
